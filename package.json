@@ -1,0 +1,24 @@
+{
+  "name": "wocss-mixins",
+  "version": "0.0.1",
+  "description": "wocss' default mixins",
+  "main": "_tools.mixins.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wochap/tools.mixins.git"
+  },
+  "keywords": [
+    "wocss",
+    "css",
+    "oocss"
+  ],
+  "author": "Gean Carlos <gean.marroquin@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wochap/tools.mixins/issues"
+  },
+  "homepage": "https://github.com/wochap/tools.mixins#readme"
+}
