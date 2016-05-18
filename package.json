@@ -1,5 +1,5 @@
 {
-  "name": "wocss-mixins",
+  "name": "wocss-tools-mixins",
   "version": "0.0.1",
   "description": "wocss' default mixins",
   "main": "_tools.mixins.scss",
