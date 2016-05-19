@@ -9,7 +9,7 @@ $wrapper-width-md: 780px !default;
 
 // center a block element
 
-@mixin center ($center-max-width: $wrapper-width-xl, $center-padding: $base-gutter) {
+@mixin layout-center ($center-max-width: $wrapper-width-xl, $center-padding: $base-gutter) {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -25,8 +25,8 @@ $wrapper-width-md: 780px !default;
 
 // create a wrapper element
 
-@mixin wrapper () {
-  @include center();
+@mixin layout-wrapper () {
+  @include layout-center();
   @include hasta('lg') {
     max-width: $wrapper-width-md;
   }
@@ -38,7 +38,7 @@ $wrapper-width-md: 780px !default;
 
 // create a block element
 
-@mixin block () {
+@mixin layout-block () {
   display: block;
   width: 100%;
 }
