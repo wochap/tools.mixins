@@ -4,7 +4,7 @@
 //  quickly create a styled button
 
 
-@mixin button ($button-padding-y: 0.5em, $button-padding-x: 1em, $button-line-height: 1.125em) {
+@mixin button ($button-padding-y: 0.5em, $button-padding-x: 1em, $button-line-height: $base-spacing-unit) {
   appearance: none;
   background: $transparent;
   border-radius: $base-border-radius;
