@@ -9,7 +9,7 @@ $wrapper-width-md: 780px !default;
 
 // center a block element
 
-@mixin layout-center ($center-max-width: $wrapper-width-xl, $center-padding: $base-gutter) {
+@mixin layout-center ($center-max-width: $wrapper-width-xl, $center-padding: $base-spacing-unit) {
   display: block;
   margin-left: auto;
   margin-right: auto;
