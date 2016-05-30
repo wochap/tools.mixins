@@ -85,3 +85,7 @@ It makes an element a block.
   @include layout-block();
 }
 ```
+
+## Dependencies
+
+* [wocss-settings-defaults](https://github.com/wocss/settings.default)
