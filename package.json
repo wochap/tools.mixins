@@ -1,6 +1,6 @@
 {
   "name": "wocss-tools-mixins",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "wocss' default mixins",
   "main": "_tools.mixins.scss",
   "repository": {
