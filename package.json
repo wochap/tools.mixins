@@ -8,9 +8,11 @@
     "url": "git+https://github.com/wochap/tools.mixins.git"
   },
   "keywords": [
-    "wocss",
+    "bemit",
     "css",
-    "oocss"
+    "itcss",
+    "sass",
+    "wocss"
   ],
   "author": "Gean Carlos <gean.marroquin@gmail.com>",
   "license": "ISC",
