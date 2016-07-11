@@ -1,19 +1,22 @@
-//  Resets
-//  ==========================================================================
+/*------------------------------------*\
+  #Resets
+\*------------------------------------*/
 
+/**
+ * 1. Form items don't inherit font information
+ * 2. Removes input background color for chrome autocomplete
+ */
 
 @mixin reset-input () {
   appearance: none;
   background: $transparent;
-  border: 0;
-  font-size: inherit;
-  outline: none;
-  padding: 0;
+  font-size: inherit; /* [1] */
 
   &:-webkit-autofill {
-    box-shadow: 0 0 0 1000px $transparent inset;
+    box-shadow: 0 0 0 1000px $transparent inset; /* [2] */
   }
 }
+
 
 @mixin reset-list () {
   list-style: none;
@@ -22,14 +25,20 @@
   padding-left: 0;
 }
 
+
+/**
+ * 1. Removes custom link styles
+ * 2. Ensure that the color is inherit
+ */
+
 @mixin reset-link () {
-  border: none;
+  border: none; /* [1] */
   text-decoration: none;
 
-  &,
-  &:active,
-  &:focus,
-  &:hover {
+  &, /* [2] */
+  &:active, /* [2] */
+  &:focus, /* [2] */
+  &:hover { /* [2] */
     color: inherit;
   }
 }

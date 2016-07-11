@@ -1,8 +1,10 @@
-//  Media queries
-//  ==========================================================================
-//
-// source: https://github.com/escueladigital/ED-GRID/blob/master/componentes/_mixins.scss
+/*------------------------------------*\
+  #Media queries
+\*------------------------------------*/
 
+/**
+ * source: https://github.com/escueladigital/ED-GRID/blob/master/componentes/_mixins.scss
+ */
 
 @mixin hasta ($size) {
   @if map-has-key($breakpoints, $size) {
@@ -16,11 +18,13 @@
   }
 }
 
+
 @mixin to ($size) {
   @include hasta($size) {
     @content;
   }
 }
+
 
 @mixin desde ($size) {
   @if map-has-key($breakpoints, $size) {
@@ -34,11 +38,13 @@
   }
 }
 
+
 @mixin from ($size) {
   @include desde($size) {
     @content;
   }
 }
+
 
 @mixin desde-hasta ($desde, $hasta) {
   @if map-has-key($breakpoints, $desde) and map-has-key($breakpoints, $hasta) {
@@ -59,6 +65,7 @@
     }
   }
 }
+
 
 @mixin from-to ($from, $to) {
   @include desde-hasta($from, $to) {
