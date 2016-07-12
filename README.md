@@ -1,7 +1,6 @@
 # Mixins
 
-The `wocss-tools-mixins` module contains a few framework mixins that are
-**required** for using any of the rest of wocss.
+The `wocss-tools-mixins` module contains a few framework mixins that are **required** for using any of the rest of wocss.
 
 Install using npm:
 
@@ -39,17 +38,6 @@ When the screen size is between the two provided measure, the styles in the bloc
 
 ```scss
 @include from-to(500px, 800px) { ... }
-```
-
-### button($padding-y, $padding-x, $line-height)
-
-The basic button mixin, flat and simple, but scales very well to any size and can be quite flexible using options passed in.
-
-```scss
-.button {
-  @include button(.5em, 1em);
-  // more code
-}
 ```
 
 ### Layout
