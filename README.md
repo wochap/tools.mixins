@@ -1,3 +1,7 @@
+>## This Project Is Deprecated
+
+>Now each mixin has its own module.
+
 # Mixins
 
 The `wocss-tools-mixins` module contains a few framework mixins that are **required** for using any of the rest of wocss.
