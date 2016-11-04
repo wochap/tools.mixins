@@ -1,7 +1,7 @@
 {
   "name": "wocss-tools-mixins",
   "version": "0.1.1",
-  "description": "wocss' default mixins",
+  "description": "[DEPRECATED] wocss' default mixins",
   "main": "_tools.mixins.scss",
   "repository": {
     "type": "git",

@@ -1,4 +1,4 @@
->## This Project Is Deprecated
+>## This module is DEPRECATED
 
 >Now each mixin has its own module.
 
